@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class ex3 {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int i,j;
+        System.out.println("Enter i :");
+        i = sc.nextInt();
+        System.out.println("Enter j :");
+        j = sc.nextInt();
+        if(i-- == j)
+        System.out.println(--i);
+        else
+        System.out.println(++j);
+    }
+}
